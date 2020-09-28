@@ -1,0 +1,79 @@
+.navbar {
+    opacity: 0.8;
+}
+
+.jumbotron  {
+    background-image:url(img/landscape.jpg); 
+    height: 483px;
+}
+  .mainColorTxt {
+    color:#3a865a;
+  }
+  .pic1 {
+    border-radius: 50%;
+    box-shadow: 0px 1px 9px -1px rgba(0,0,0,0.6);
+  }
+
+  .rounded-corners-gradient-borders-btn {
+    border: double 3px transparent;
+    padding: 3px;
+    border-radius: 27px;
+    background: linear-gradient(to bottom, white, white), radial-gradient(circle at left, #096730, #a9e169) border-box;
+    background-clip: padding-box, border-box;
+    width: 55%;
+  }
+  .rounded-corners-gradient-borders-pnl {
+    border: double 3px transparent;
+    padding: 3px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, white, white), radial-gradient(circle at bottom, #096730, #a9e169) border-box;
+    background-clip: padding-box, border-box;
+  }
+  .btn {
+      margin-left:70px;
+  }
+  .cont1  {
+      background: url(img/bg.png);
+  }
+  
+  * {box-sizing: border-box;}
+  .img-zoom-container {
+    position: relative;
+  }
+  
+  .img-zoom-lens {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    /*set the size of the lens:*/
+    width: 40px;
+    height: 40px;
+  }
+  
+  .img-zoom-result {
+    border: 1px solid #d4d4d4;
+    /*set the size of the result div:*/
+    width: 300px;
+    height: 300px;
+  }
+
+  footer {
+      background-color: #ebebeb;
+  }
+  .allRigth {
+    height: 33px;
+    background: #00806e;
+    color: white;
+    font-size: 10px;
+  }
+  .font-hdr {
+    /* font-family:'MS PGothic'; */
+    font-weight: bold;
+    font-size: 12px;
+    /* font-family:'ＭＳ Ｐゴシック' */
+  }
+  .font-dtl {
+    font-family:'ＭＳ Ｐゴシック'; /*'ＭＳ Ｐゴシック'*/
+    /* font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",  
+    メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック" , "MS Gothic",
+     "Noto Sans CJK JP", TakaoPGothic, sans-serif; */
+  }
